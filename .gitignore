@@ -1,0 +1,10 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+
+# Your personal data: stays on your computer
+tasks.json
+goals.json
+costs.jsonl
+audit.jsonl
