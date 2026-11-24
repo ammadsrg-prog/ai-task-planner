@@ -1,0 +1,22 @@
+[
+  {"sentence": "Buy milk tomorrow", "expected": [{"due": "tomorrow"}]},
+  {"sentence": "Call mom today", "expected": [{"due": "today"}]},
+  {"sentence": "Dentist appointment on Friday", "expected": [{"due": "friday"}]},
+  {"sentence": "Submit the report in 3 days", "expected": [{"due": "+3"}]},
+  {"sentence": "Prepare the slides in 5 days", "expected": [{"due": "+5"}]},
+  {"sentence": "Read a book", "expected": [{"due": null}]},
+  {"sentence": "Water the plants", "expected": [{"due": null}]},
+  {"sentence": "Gym on Monday and Thursday", "expected": [{"due": "monday"}, {"due": "thursday"}]},
+  {"sentence": "Email the professor on Tuesday and book flights on Saturday", "expected": [{"due": "tuesday"}, {"due": "saturday"}]},
+  {"sentence": "Study Bedrock on Friday and RAG on Saturday", "expected": [{"due": "friday"}, {"due": "saturday"}]},
+  {"sentence": "Buy groceries tomorrow and cook dinner tomorrow", "expected": [{"due": "tomorrow"}, {"due": "tomorrow"}]},
+  {"sentence": "Urgent: fix the login bug by Wednesday", "expected": [{"due": "wednesday", "priority": "high"}]},
+  {"sentence": "Pay rent tomorrow, it's very important", "expected": [{"due": "tomorrow", "priority": "high"}]},
+  {"sentence": "Finish AWS module 4 by Sunday, high priority", "expected": [{"due": "sunday", "priority": "high"}]},
+  {"sentence": "Renew my passport by Thursday, this is critical", "expected": [{"due": "thursday", "priority": "high"}]},
+  {"sentence": "Maybe clean the garage sometime, not important", "expected": [{"due": null, "priority": "low"}]},
+  {"sentence": "Low priority: organise old photos", "expected": [{"due": null, "priority": "low"}]},
+  {"sentence": "Book a haircut on Saturday, no rush", "expected": [{"due": "saturday", "priority": "low"}]},
+  {"sentence": "Send the invoice today and follow up with the client on Monday", "expected": [{"due": "today"}, {"due": "monday"}]},
+  {"sentence": "Practice for the interview tomorrow, it's urgent, and buy a new shirt on Friday", "expected": [{"due": "tomorrow", "priority": "high"}, {"due": "friday"}]}
+]

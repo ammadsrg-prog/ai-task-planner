@@ -1,0 +1,283 @@
+{
+  "run_at": "2026-11-24T14:29:42",
+  "today": "2026-11-24",
+  "passed": 18,
+  "total": 20,
+  "score_percent": 90,
+  "results": [
+    {
+      "sentence": "Buy milk tomorrow",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Buy milk",
+          "due": "2026-11-25",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Call mom today",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Call mom",
+          "due": "2026-11-24",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Dentist appointment on Friday",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Dentist appointment",
+          "due": "2026-11-27",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Submit the report in 3 days",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Submit the report",
+          "due": "2026-11-27",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Prepare the slides in 5 days",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Prepare the slides",
+          "due": "2026-11-29",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Read a book",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Read a book",
+          "due": null,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Water the plants",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Water the plants",
+          "due": null,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Gym on Monday and Thursday",
+      "passed": false,
+      "problems": [
+        "'Gym': due 2026-12-03, expected 2026-11-26 (thursday)"
+      ],
+      "got": [
+        {
+          "title": "Gym",
+          "due": "2026-11-30",
+          "priority": "medium"
+        },
+        {
+          "title": "Gym",
+          "due": "2026-12-03",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Email the professor on Tuesday and book flights on Saturday",
+      "passed": false,
+      "problems": [
+        "'Email the professor': due 2026-12-01, expected 2026-11-24 (tuesday)"
+      ],
+      "got": [
+        {
+          "title": "Email the professor",
+          "due": "2026-12-01",
+          "priority": "medium"
+        },
+        {
+          "title": "Book flights",
+          "due": "2026-11-28",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Study Bedrock on Friday and RAG on Saturday",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Study Bedrock",
+          "due": "2026-11-27",
+          "priority": "medium"
+        },
+        {
+          "title": "Study RAG",
+          "due": "2026-11-28",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Buy groceries tomorrow and cook dinner tomorrow",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Buy groceries",
+          "due": "2026-11-25",
+          "priority": "medium"
+        },
+        {
+          "title": "Cook dinner",
+          "due": "2026-11-25",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Urgent: fix the login bug by Wednesday",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "fix the login bug",
+          "due": "2026-11-25",
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "sentence": "Pay rent tomorrow, it's very important",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Pay rent",
+          "due": "2026-11-25",
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "sentence": "Finish AWS module 4 by Sunday, high priority",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Finish AWS module 4",
+          "due": "2026-11-29",
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "sentence": "Renew my passport by Thursday, this is critical",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Renew passport",
+          "due": "2026-11-26",
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "sentence": "Maybe clean the garage sometime, not important",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Clean the garage",
+          "due": null,
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "sentence": "Low priority: organise old photos",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "organise old photos",
+          "due": null,
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "sentence": "Book a haircut on Saturday, no rush",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Book a haircut",
+          "due": "2026-11-28",
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "sentence": "Send the invoice today and follow up with the client on Monday",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Send the invoice",
+          "due": "2026-11-24",
+          "priority": "medium"
+        },
+        {
+          "title": "Follow up with the client",
+          "due": "2026-11-30",
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "sentence": "Practice for the interview tomorrow, it's urgent, and buy a new shirt on Friday",
+      "passed": true,
+      "problems": [],
+      "got": [
+        {
+          "title": "Practice for the interview",
+          "due": "2026-11-25",
+          "priority": "high"
+        },
+        {
+          "title": "Buy a new shirt",
+          "due": "2026-11-27",
+          "priority": "medium"
+        }
+      ]
+    }
+  ]
+}
